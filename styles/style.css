@@ -5,13 +5,19 @@ body{
 
 }
 
-/* hero section style */
+/* shared styles */
+section{
+    margin-bottom: 100px;
+}
+
+
+/* banner section style */
 .banner{
     display: flex;
     background-color: #C6E4D6;
     border-radius: 24px;
     padding: 142px 50px;
-    gap: 50px;
+    gap: 20px;
 }
 .banner-sub-tittle{
     font-weight: 400;
@@ -32,6 +38,80 @@ body{
     padding: 17px 35px;
     border: none;
     border-radius: 8px;
+}
+
+/* Vision section styles */
+
+.vision{
+    margin: 10px;
+}
+.vision-container {
+    display: flex;
+    gap: 20px;
+}
+.vision-tittle{
+    font-weight: 700;
+    font-size: 40px;
+    color: #0E0E0E;
+}
+.vision-description{
+    font-weight: 400;
+    font-size: 16px;
+    color: #0E0E0E;
+}
+.vision-c-tittle{
+    color: #0E0E0E;
+    font-weight: 700;
+    font-size: 20px;
+}
+.vision-c-description{
+    font-weight: 400;
+    font-size: 16px;
+    color: #0E0E0E;
+}
+
+.vision-column-one{
+    background-color: #b5ccec;
+    border-radius: 16px;
+    padding: 32px;
+        
+}
+.vision-column-two{
+    background-color: #C6E4D6;
+    border-radius: 16px;
+    padding: 32px;
+}
+.vision-column-three{
+    background-color: #F7EBCF;
+    border-radius: 16px;
+    padding: 32px;
+}
+.btn-v-one{
+    padding: 11px 20px;
+    background-color: #5490F5;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+}
+.btn-v-two{
+    padding: 11px 20px;
+    background-color: #09A15C;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+}
+.btn-v-three{
+    padding: 11px 20px;
+    background-color: #FFC239;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
 }
 
 
