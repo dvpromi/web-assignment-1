@@ -2,6 +2,7 @@
 
 body{
     font-family: "Fira Sans", serif;
+    background-color: #F1F1F3;
 
 }
 
@@ -17,7 +18,7 @@ section{
     background-color: #C6E4D6;
     border-radius: 24px;
     padding: 142px 50px;
-    gap: 20px;
+    gap: 50px;
 }
 .banner-sub-tittle{
     font-weight: 400;
@@ -44,6 +45,7 @@ section{
 
 .vision{
     margin: 10px;
+    margin-bottom: 100px;
 }
 .vision-container {
     display: flex;
@@ -58,6 +60,7 @@ section{
     font-weight: 400;
     font-size: 16px;
     color: #0E0E0E;
+    margin-bottom: 30px;
 }
 .vision-c-tittle{
     color: #0E0E0E;
@@ -112,6 +115,37 @@ section{
     color: white;
     font-size: 16px;
     font-weight: 600;
+}
+
+/* Recent news styles */
+
+.recent-news{
+    margin: 10px;
+}
+.box-news-one{
+    display: flex;
+    gap: 50px;
+    padding: 50px;
+    background-color: white;
+    border-radius: 24px;
+    margin-bottom: 40px;
+}
+.inline{
+    display: flex;
+    gap: 20px;
+}
+.news-img{
+    border-radius: 24px;
+}
+.news-tittle{
+    font-weight: 700;
+    font-size: 32px;
+    color: #0E0E0E;
+}
+.news-description{
+    font-weight: 400;
+    font-size: 16px;
+    color: #0E0E0E;
 }
 
 
