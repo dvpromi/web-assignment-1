@@ -13,6 +13,31 @@ body{
 
 }
 
+/* nav styles */
+.nav-section{
+    display: flex;
+    justify-content: space-between;
+    /* margin-bottom: 5px; */
+}
+
+.nav-tittle{
+    font-weight: bold;
+    font-size: 32px;
+    color: #0E0E0E;
+}
+.nav-btn{
+    font-size: 18px;
+    border-radius: 8px;
+    border: 1px solid #006A50;
+    color: #006A50;
+    width: 116px;
+    height: 52px;
+}
+
+.nav-btn:hover{
+    background-color: #006A50;
+    color: white;
+}
 
 /* shared styles */
 section{
@@ -22,12 +47,11 @@ section{
 .text-center{
     text-align: center;
 }
-/* .bg-color{
-    background-color: #C6E4D6;
-} */
-
 
 /* banner section style */
+.banner-content{
+    margin-top: 50px;
+}
 .banner{
     display: flex;
     background-color: #C6E4D6;
@@ -79,12 +103,16 @@ section{
     font-weight: 700;
     font-size: 40px;
     color: #0E0E0E;
+    margin-left: 15px;
+    margin-right: 15px;
 }
 .vision-description{
     font-weight: 400;
     font-size: 16px;
     color: #0E0E0E;
     margin-bottom: 30px;
+    margin-left: 15px;
+    margin-right: 15px;
 }
 .vision-c-tittle{
     color: #0E0E0E;
@@ -121,6 +149,11 @@ section{
     color: white;
     font-size: 16px;
     font-weight: 600;
+    cursor: pointer;
+}
+.btn-v-one:hover, .btn-v-two:hover, .btn-v-three:hover{
+    background-color: #F1F1F3;
+    color: #343434;
 }
 .btn-v-two{
     padding: 11px 20px;
@@ -130,6 +163,7 @@ section{
     color: white;
     font-size: 16px;
     font-weight: 600;
+    cursor: pointer;
 }
 .btn-v-three{
     padding: 11px 20px;
@@ -139,6 +173,7 @@ section{
     color: white;
     font-size: 16px;
     font-weight: 600;
+    cursor: pointer;
 }
 
 /* Recent news styles */
@@ -166,6 +201,7 @@ section{
     font-weight: 700;
     font-size: 32px;
     color: #0E0E0E;
+    margin-bottom: 0px;
 }
 .news-description{
     font-weight: 400;
@@ -192,6 +228,7 @@ section{
     background-color: white;
     border-radius: 16px;
     border: 1px solid #b5ccec;
+    cursor: pointer;
     
 }
 .donate-option:hover{
