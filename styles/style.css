@@ -271,5 +271,26 @@ section{
     color: #0E0E0E;
 }
 
+/* Quote Section styles */
+
+.dr-yunus{
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.Quote-section{
+    padding: 58px 24px;
+    background-color: white;
+    border-radius: 16px;
+}
+.quote-desc{
+    background-image: url(../assets/quote-bg.png);
+    background-repeat: no-repeat;
+    margin-top: 10px;
+    line-height: 30px;
+}
+
+
+
 
 
